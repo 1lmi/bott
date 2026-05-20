@@ -1,0 +1,6 @@
+openpyxl
+schedule
+isoweek
+pillow
+pyTelegramBotAPI
+PySocks

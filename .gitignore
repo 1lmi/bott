@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*.bak.*
+.env
+schedule_*.png
+logs/*.log
+logs/*.log.*
