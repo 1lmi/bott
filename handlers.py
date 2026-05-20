@@ -240,7 +240,7 @@ def register_handlers(bot, config: AppConfig, schedules, replacements: Replaceme
 
     @bot.message_handler(func=lambda message: message.text == BTN_ABOUT)
     def about_creator(message):
-        bot.send_message(message.chat.id, "Разработчик: Максим ИСИП-22/2\nСвязь: @uu44uu44")
+        bot.send_message(message.chat.id, "Разработчик: \nСвязь: ")
 
     @bot.message_handler(func=lambda message: message.text == BTN_REPLACEMENTS)
     def show_replacements(message):
